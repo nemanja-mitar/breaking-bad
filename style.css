@@ -1,0 +1,552 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ul li{
+    list-style-type: none;
+}
+
+#pozadina {
+    background-image: url(images/pozadina.jpg);
+    background-position: center; 
+    background-size: cover;
+    height: 100vh;
+}
+
+#pozadina #meni{
+    width: 50%;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+#pozadina #meni #nav{
+   margin-left: 50px;
+}
+
+#pozadina ul li{
+    font-size: 24px;
+    display: inline;
+    margin-left: 30px;
+}
+
+#pozadina ul li a{
+    color: #010101;
+}
+
+#pozadina #meni #logo img{
+    width: 100px;
+    height: 100px;
+    margin:20px 20px;
+}
+
+#meni #nav a:hover{
+    border-bottom: 2px solid #010101;
+}
+
+#sadrzaj{
+    background-color: #010101;
+}
+
+#naslov h1{
+    text-transform: uppercase;
+    padding-top: 250px;
+    padding-left: 130px;
+    font-size: 65px;
+    line-height: 0.9;
+}
+
+#naslov span{
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    color: #f1d12f;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#video{
+    padding-top: 30px;
+    width: 854px;
+    margin: 0px auto;
+}
+
+.glumci-lista{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+figure img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+figcaption{
+    color:white;
+    text-align: center;
+}
+
+figcaption span{
+    color: #f1d12f;
+}
+
+#informacije{
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+#informacije #slika img{
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 210px;
+    margin-right: 30px;
+}
+
+#informacije h3{
+    color:white;
+    font-size: 32px;
+}
+
+#informacije p{
+    padding-top: 20px;
+    color: #f1d12f;
+    font-size: 20px;
+    width: 87%;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#informacije #nagrade p{
+    color: white;
+    border: 3px solid #f1d12f;
+    border-radius: 10px;
+    padding: 10px;
+    width: 535px;
+}
+
+.futer{
+    background-color: #f1d12f;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+#futer-meni ul li a{
+    color: #010101;
+    font-size: 16px;
+    
+}
+
+i{
+    font-size: 30px;
+    color: #010101;
+    margin-left: 10px;
+}
+
+#ime{
+    font-size: 24px;
+}
+
+#galerija{
+    background-color: #f1d12f; 
+}
+
+#galerija-meni #meni{
+    width: 50%;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+#galerija-meni #meni #nav{
+   margin-left: 50px;
+}
+
+#galerija-meni ul li{
+    font-size: 24px;
+    display: inline;
+    margin-left: 30px;
+}
+
+#galerija-meni ul li a{
+    color: #010101;
+}
+
+#galerija-meni #meni #logo img{
+    width: 100px;
+    height: 100px;
+    margin:10px 20px;
+}
+
+#galerija h1{
+    text-align: center;
+    font-size: 65px;
+    padding-bottom: 20px;
+    line-height: 0.9;
+}
+
+#galerija article img{
+    width: 590px;
+    height: 332px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+#galerija #slike{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+#galerija .futer{
+    background-color: #010101;
+    color: #f1d12f;
+}
+
+#galerija .futer a{
+    color: #f1d12f;
+}
+
+#galerija .futer i{
+    color: #f1d12f;
+}
+
+#about{
+    background-color: #f1d12f; 
+}
+
+#about-meni #meni{
+    width: 50%;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+#about-meni #meni #nav{
+   margin-left: 50px;
+}
+
+#about-meni ul li{
+    font-size: 24px;
+    display: inline;
+    margin-left: 30px;
+}
+
+#about-meni ul li a{
+    color: #010101;
+}
+
+#about-meni #meni #logo img{
+    width: 100px;
+    height: 100px;
+    margin:10px 20px;
+}
+
+#about h1{
+    text-align: center;
+    font-size: 65px;
+    padding-bottom: 20px;
+}
+
+.sezona1{
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.sezona1 #slika img{
+    height: 600px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.sezona1 h2{
+    text-align: left;
+    color: #010101;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.sezona1 p{
+    font-size: 23px;
+    color: #010101;
+    padding-right: 70px;
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.sezona2{
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.sezona2 #slika img{
+    height: 600px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+.sezona2 h2{
+    text-align: right;
+    color: #010101;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    padding-right: 30px;
+}
+
+.sezona2 p{
+    font-size: 23px;
+    color: #010101;
+    padding-left: 70px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+#mapa h2{
+    color: #010101;
+}
+
+#mapa-blok{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#about .futer{
+    background-color: #010101;
+    color: #f1d12f;
+}
+
+#about .futer a{
+    color: #f1d12f;
+}
+
+#about .futer i{
+    color: #f1d12f;
+}
+
+#utisci{
+    background-color: #f1d12f;
+}
+
+#utisci-meni #meni{
+    width: 50%;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+#utisci-meni #meni #nav{
+   margin-left: 50px;
+}
+
+#utisci-meni ul li{
+    font-size: 24px;
+    display: inline;
+    margin-left: 30px;
+}
+
+#utisci-meni ul li a{
+    color: #010101;
+}
+
+#utisci-meni #meni #logo img{
+    width: 100px;
+    height: 100px;
+    margin:10px 20px;
+}
+
+#utisci h1{
+    text-align: center;
+    font-size: 65px;
+    padding-bottom: 20px;
+}
+
+
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #010101; 
+    border: 2px solid #f1d12f; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(241, 209, 47, 0.4); 
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #f1d12f;
+}
+
+input, textarea, button {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f1d12f; 
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #010101; 
+    color: #f1d12f; 
+}
+
+button{
+    width: 100%;
+}
+
+textarea{
+    color: #010101;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #f1d12f;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #f1d12f; 
+    box-shadow: 0 0 5px #f1d12f;
+}
+
+button {
+    background-color: #f1d12f; 
+    color: #010101; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0b923; 
+}
+
+#forma{
+    padding-bottom: 20px;
+}
+
+#utisci .futer{
+    background-color: #010101;
+    color: #f1d12f;
+}
+
+#utisci .futer a{
+    color: #f1d12f;
+}
+
+#utisci .futer i{
+    color: #f1d12f;
+}
+
+#autor{
+    background-color: #f1d12f;
+}
+
+#autor-meni #meni{
+    width: 50%;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+#autor-meni #meni #nav{
+   margin-left: 50px;
+}
+
+#autor-meni ul li{
+    font-size: 24px;
+    display: inline;
+    margin-left: 30px;
+}
+
+#autor-meni ul li a{
+    color: #010101;
+}
+
+#autor-meni #meni #logo img{
+    width: 100px;
+    height: 100px;
+    margin:10px 20px;
+}
+
+#autor h1{
+    text-align: center;
+    font-size: 65px;
+    padding-bottom: 20px;
+}
+
+#autor-slika{
+    width: 450px;
+}
+
+#autor-slika img{
+    height: 600px;
+    border-radius: 15px;
+}
+
+#autor-tekst{
+    width: 500px;
+}
+
+#autor-blok{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#autor-tekst h2{
+    color: #010101;
+    padding-bottom: 20px;
+}
+
+#autor-tekst p{
+    color: #010101;
+    padding-left: 13px;
+    text-align: justify;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+#autor .futer{
+    background-color: #010101;
+    color: #f1d12f;
+}
+
+#autor .futer a{
+    color: #f1d12f;
+}
+
+#autor .futer i{
+    color: #f1d12f;
+}
+
+i:hover{
+    transform:scale(1.2);
+    transition: transform 0.3s ease;
+}
+

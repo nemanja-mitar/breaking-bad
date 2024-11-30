@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="Breaking Bad reviews, user opinions, fan impressions, series feedback, TV show comments">
+    <meta name="description" content="Share your impressions of Breaking Bad! Leave reviews and opinions about the series that captivated fans around the world.">
+</head>
+<body>
+    <div id="utisci">
+        <div id="utisci-meni">
+            <div id="meni">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="impressions.html">Impressions</a>
+                        </li>
+                        <li>
+                            <a href="author.html">Author</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h1>Tell us Your impressions</h1>
+        <div id="forma">
+            <form action="/submit" method="POST">
+                
+        
+                <label for="ime">First Name:</label>
+                <input type="text" id="ime" name="ime" placeholder="First name" required>
+        
+                <label for="prezime">Last Name:</label>
+                <input type="text" id="prezime" name="prezime" placeholder="Last name" required>
+        
+                <label for="godine">Age:</label>
+                <input type="number" id="godine" name="godine" placeholder="Age" min="1" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email address" required>
+        
+                <label for="utici">Feedback about the series:</label>
+                <textarea id="utisci" name="utisci" rows="4" placeholder="Share your thoughts about the series..." required></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="futer">  
+            <div id="futer-meni">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="impressions.html">Impressions</a>
+                    </li>
+                    <li>
+                        <a href="author.html">Author</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="ime">
+                <p>Nemanja Mitrovic 66/24</p>
+            </div>
+            <div id="mreze">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
